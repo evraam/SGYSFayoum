@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrew.goodreads.Basic">
+
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/ff" />
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imageView">
+
+    <ImageButton
+        android:id="@+id/btnLibrary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/bookshelf" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnLibrary"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="blog"
+        android:contextClickable="false"
+        android:clickable="false"
+        app:srcCompat="@drawable/blog" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:adjustViewBounds="true"
+        android:clickable="false"
+        app:srcCompat="@drawable/bible" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="36dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/support"
+        android:clickable="false"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnLibrary"
+            android:layout_alignLeft="@+id/btnLibrary"
+            android:layout_alignRight="@+id/btnLibrary"
+            android:layout_alignStart="@+id/btnLibrary"
+            android:layout_below="@+id/imageButton2"
+            android:text="المكتبه"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignEnd="@+id/imageButton2"
+            android:layout_alignLeft="@+id/imageButton2"
+            android:layout_alignRight="@+id/imageButton2"
+            android:layout_alignStart="@+id/imageButton2"
+            android:text="الاخبار"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton3"
+            android:layout_alignLeft="@+id/imageButton3"
+            android:layout_alignRight="@+id/imageButton3"
+            android:layout_alignStart="@+id/imageButton3"
+            android:layout_below="@+id/imageButton3"
+            android:text="القراءات"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton4"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignRight="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_below="@+id/imageButton4"
+        android:text="contact us"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
